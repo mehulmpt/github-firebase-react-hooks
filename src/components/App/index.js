@@ -6,7 +6,7 @@ import Register from '../Register'
 import Dashboard from '../Dashboard'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import { CssBaseline, CircularProgress } from '@material-ui/core'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import firebase from '../firebase'
 
 const theme = createMuiTheme()
